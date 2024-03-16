@@ -24,6 +24,7 @@ df1 = df.withColumn('word',F.explode(F.split('value', ','))).groupBy('word').cou
 # start表示开始进行流数据处理
 # awaitTermination  会等待接受流数据
 
+
 df1.writeStream\
      .outputMode('complete')\
      .format('console')\
