@@ -18,6 +18,7 @@ df = (ss.readStream.format('socket')
 # withColumn 将处理后的数据增加新的一列
 df1 = df.withColumn('word',F.explode(F.split('value', ','))).groupBy('word').count()
 
+
 # 输出结果信息
 # outputMode 指定输出模式
 # format 指定输出的位置  console 输出到终端,不支持聚合操作  complete 支持聚合计算
