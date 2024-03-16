@@ -1,0 +1,4692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@192.168.116.135">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.51">
+    <root id="1">
+      <DefaultCasing>exact</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <Grants>|root||root|localhost|ALTER|G
+|root||test||ALTER|G
+|root||root|localhost|ALTER ROUTINE|G
+|root||test||ALTER ROUTINE|G
+|root||root|localhost|CREATE|G
+|root||test||CREATE|G
+|root||root|localhost|CREATE ROUTINE|G
+|root||test||CREATE ROUTINE|G
+|root||root|localhost|CREATE TABLESPACE|G
+|root||test||CREATE TABLESPACE|G
+|root||root|localhost|CREATE TEMPORARY TABLES|G
+|root||test||CREATE TEMPORARY TABLES|G
+|root||root|localhost|CREATE USER|G
+|root||test||CREATE USER|G
+|root||root|localhost|CREATE VIEW|G
+|root||test||CREATE VIEW|G
+|root||root|localhost|DELETE|G
+|root||test||DELETE|G
+|root||root|localhost|DROP|G
+|root||test||DROP|G
+|root||root|localhost|EVENT|G
+|root||test||EVENT|G
+|root||root|localhost|EXECUTE|G
+|root||test||EXECUTE|G
+|root||root|localhost|FILE|G
+|root||test||FILE|G
+|root||root|localhost|INDEX|G
+|root||test||INDEX|G
+|root||root|localhost|INSERT|G
+|root||test||INSERT|G
+|root||root|localhost|LOCK TABLES|G
+|root||test||LOCK TABLES|G
+|root||root|localhost|PROCESS|G
+|root||test||PROCESS|G
+|root||root|localhost|REFERENCES|G
+|root||test||REFERENCES|G
+|root||root|localhost|RELOAD|G
+|root||test||RELOAD|G
+|root||root|localhost|REPLICATION CLIENT|G
+|root||test||REPLICATION CLIENT|G
+|root||root|localhost|REPLICATION SLAVE|G
+|root||test||REPLICATION SLAVE|G
+|root||root|localhost|SELECT|G
+|root||test||SELECT|G
+|root||root|localhost|SHOW DATABASES|G
+|root||test||SHOW DATABASES|G
+|root||root|localhost|SHOW VIEW|G
+|root||test||SHOW VIEW|G
+|root||root|localhost|SHUTDOWN|G
+|root||test||SHUTDOWN|G
+|root||mysql.session|localhost|SUPER|G
+|root||root|localhost|SUPER|G
+|root||test||SUPER|G
+|root||root|localhost|TRIGGER|G
+|root||test||TRIGGER|G
+|root||root|localhost|UPDATE|G
+|root||test||UPDATE|G
+|root||root|localhost|grant option|G
+performance_schema|schema||mysql.session|localhost|SELECT|G
+sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
+      <ServerVersion>5.7.44</ServerVersion>
+    </root>
+    <collation id="2" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="3" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+    </collation>
+    <collation id="4" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="5" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+    </collation>
+    <collation id="6" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="7" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+    </collation>
+    <collation id="8" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="9" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+    </collation>
+    <collation id="10" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="11" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+    </collation>
+    <collation id="12" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="13" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="14" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="15" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="16" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="17" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="18" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="19" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="20" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="21" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="22" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="23" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="24" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="25" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="26" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+    </collation>
+    <collation id="27" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="28" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+    </collation>
+    <collation id="29" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="30" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+    </collation>
+    <collation id="31" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="32" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+    </collation>
+    <collation id="33" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="34" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+    </collation>
+    <collation id="35" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="36" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+    </collation>
+    <collation id="37" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="38" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+    </collation>
+    <collation id="39" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+    </collation>
+    <collation id="41" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="42" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+    </collation>
+    <collation id="43" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="44" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+    </collation>
+    <collation id="45" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="46" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="47" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="48" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="49" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="50" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+    </collation>
+    <collation id="52" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="53" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+    </collation>
+    <collation id="54" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="55" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+    </collation>
+    <collation id="56" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="58" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="59" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="60" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="61" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="62" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="63" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="64" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="65" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="66" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="67" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="68" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="69" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="70" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="71" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="72" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="73" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="74" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="75" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="76" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="77" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="78" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="79" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="80" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="81" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="82" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="83" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="85" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="86" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="87" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="88" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="89" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="90" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="91" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="92" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="93" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="94" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="95" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="96" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="97" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="98" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="99" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="100" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="101" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="102" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="103" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="104" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="105" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="106" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="107" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="108" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="109" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="110" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+    </collation>
+    <collation id="112" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="113" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+    </collation>
+    <collation id="114" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="115" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+    </collation>
+    <collation id="116" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="117" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+    </collation>
+    <collation id="118" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="119" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+    </collation>
+    <collation id="120" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="121" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="123" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="124" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="125" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="126" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="127" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="128" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="129" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="130" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="131" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="132" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="133" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="134" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="135" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="136" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="137" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="138" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="139" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="140" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="141" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="142" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="143" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="144" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="145" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="146" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="147" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="148" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="149" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="150" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="151" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="152" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="153" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="154" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="155" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="156" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="157" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="158" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="159" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="160" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="161" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="162" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="163" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="164" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="165" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="166" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="167" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="168" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="169" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="170" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="171" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="172" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="173" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="174" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="175" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="176" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="177" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="178" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="179" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="180" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="181" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="182" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+    </collation>
+    <collation id="183" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="184" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+    </collation>
+    <collation id="185" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="186" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="187" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="188" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="189" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="190" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="191" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="192" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="193" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="194" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="195" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="196" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="197" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="198" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="199" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="200" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="201" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="202" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="203" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="204" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="205" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="206" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="207" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="208" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="209" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="210" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="211" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="212" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="213" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="214" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="215" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="216" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+    </collation>
+    <collation id="217" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="218" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+    </collation>
+    <collation id="219" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="220" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+    </collation>
+    <collation id="221" parent="1" name="gb18030_chinese_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="222" parent="1" name="gb18030_bin">
+      <Charset>gb18030</Charset>
+    </collation>
+    <collation id="223" parent="1" name="gb18030_unicode_520_ci">
+      <Charset>gb18030</Charset>
+    </collation>
+    <schema id="224" parent="1" name="information_schema">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="225" parent="1" name="mysql">
+      <CollationName>latin1_swedish_ci</CollationName>
+    </schema>
+    <schema id="226" parent="1" name="performance_schema">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="227" parent="1" name="sys">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="228" parent="1" name="test">
+      <CollationName>latin1_swedish_ci</CollationName>
+    </schema>
+    <schema id="229" parent="1" name="ke">
+      <CollationName>latin1_swedish_ci</CollationName>
+    </schema>
+    <schema id="230" parent="1" name="itcast">
+      <LastIntrospectionLocalTimestamp>2024-01-21.11:54:03</LastIntrospectionLocalTimestamp>
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="231" parent="1" name="hive">
+      <LastIntrospectionLocalTimestamp>2024-01-21.11:54:03</LastIntrospectionLocalTimestamp>
+      <CollationName>utf8mb4_unicode_ci</CollationName>
+    </schema>
+    <user id="232" parent="1" name="root">
+      <Host>localhost</Host>
+    </user>
+    <user id="233" parent="1" name="mysql.session">
+      <Host>localhost</Host>
+    </user>
+    <user id="234" parent="1" name="mysql.sys">
+      <Host>localhost</Host>
+    </user>
+    <user id="235" parent="1" name="test"/>
+    <table id="236" parent="231" name="AUX_TABLE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="237" parent="231" name="BUCKETING_COLS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="238" parent="231" name="CDS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="239" parent="231" name="COLUMNS_V2">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="240" parent="231" name="COMPACTION_QUEUE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="241" parent="231" name="COMPLETED_COMPACTIONS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="242" parent="231" name="COMPLETED_TXN_COMPONENTS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="243" parent="231" name="CTLGS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="244" parent="231" name="DATABASE_PARAMS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="245" parent="231" name="DBS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="246" parent="231" name="DB_PRIVS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="247" parent="231" name="DELEGATION_TOKENS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="248" parent="231" name="FUNCS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="249" parent="231" name="FUNC_RU">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="250" parent="231" name="GLOBAL_PRIVS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="251" parent="231" name="HIVE_LOCKS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="252" parent="231" name="IDXS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="253" parent="231" name="INDEX_PARAMS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="254" parent="231" name="I_SCHEMA">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="255" parent="231" name="KEY_CONSTRAINTS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="256" parent="231" name="MASTER_KEYS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="257" parent="231" name="MATERIALIZATION_REBUILD_LOCKS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="258" parent="231" name="METASTORE_DB_PROPERTIES">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="259" parent="231" name="MIN_HISTORY_LEVEL">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="260" parent="231" name="MV_CREATION_METADATA">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="261" parent="231" name="MV_TABLES_USED">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="262" parent="231" name="NEXT_COMPACTION_QUEUE_ID">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="263" parent="231" name="NEXT_LOCK_ID">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="264" parent="231" name="NEXT_TXN_ID">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="265" parent="231" name="NEXT_WRITE_ID">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="266" parent="231" name="NOTIFICATION_LOG">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="267" parent="231" name="NOTIFICATION_SEQUENCE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="268" parent="231" name="NUCLEUS_TABLES">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="269" parent="231" name="PARTITIONS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="270" parent="231" name="PARTITION_EVENTS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="271" parent="231" name="PARTITION_KEYS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="272" parent="231" name="PARTITION_KEY_VALS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="273" parent="231" name="PARTITION_PARAMS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="274" parent="231" name="PART_COL_PRIVS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="275" parent="231" name="PART_COL_STATS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="276" parent="231" name="PART_PRIVS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="277" parent="231" name="REPL_TXN_MAP">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="278" parent="231" name="ROLES">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="279" parent="231" name="ROLE_MAP">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="280" parent="231" name="RUNTIME_STATS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="281" parent="231" name="SCHEMA_VERSION">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="282" parent="231" name="SDS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="283" parent="231" name="SD_PARAMS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="284" parent="231" name="SEQUENCE_TABLE">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="285" parent="231" name="SERDES">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="286" parent="231" name="SERDE_PARAMS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="287" parent="231" name="SKEWED_COL_NAMES">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="288" parent="231" name="SKEWED_COL_VALUE_LOC_MAP">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="289" parent="231" name="SKEWED_STRING_LIST">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="290" parent="231" name="SKEWED_STRING_LIST_VALUES">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="291" parent="231" name="SKEWED_VALUES">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="292" parent="231" name="SORT_COLS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="293" parent="231" name="TABLE_PARAMS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="294" parent="231" name="TAB_COL_STATS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="295" parent="231" name="TBLS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="296" parent="231" name="TBL_COL_PRIVS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="297" parent="231" name="TBL_PRIVS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="298" parent="231" name="TXNS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="299" parent="231" name="TXN_COMPONENTS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="300" parent="231" name="TXN_TO_WRITE_ID">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="301" parent="231" name="TYPES">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="302" parent="231" name="TYPE_FIELDS">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="303" parent="231" name="VERSION">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="304" parent="231" name="WM_MAPPING">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="305" parent="231" name="WM_POOL">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="306" parent="231" name="WM_POOL_TO_TRIGGER">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="307" parent="231" name="WM_RESOURCEPLAN">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="308" parent="231" name="WM_TRIGGER">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <table id="309" parent="231" name="WRITE_SET">
+      <Engine>InnoDB</Engine>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </table>
+    <column id="310" parent="236" name="MT_KEY1">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="311" parent="236" name="MT_KEY2">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="312" parent="236" name="MT_COMMENT">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="313" parent="236" name="PRIMARY">
+      <ColNames>MT_KEY1
+MT_KEY2</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="314" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="315" parent="237" name="SD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="316" parent="237" name="BUCKET_COL_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="317" parent="237" name="INTEGER_IDX">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="318" parent="237" name="BUCKETING_COLS_FK1">
+      <ColNames>SD_ID</ColNames>
+      <RefColNames>SD_ID</RefColNames>
+      <RefTableName>SDS</RefTableName>
+    </foreign-key>
+    <index id="319" parent="237" name="PRIMARY">
+      <ColNames>SD_ID
+INTEGER_IDX</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="320" parent="237" name="BUCKETING_COLS_N49">
+      <ColNames>SD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="321" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="322" parent="238" name="CD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <index id="323" parent="238" name="PRIMARY">
+      <ColNames>CD_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="324" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="325" parent="239" name="CD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="326" parent="239" name="COMMENT">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="327" parent="239" name="COLUMN_NAME">
+      <DasType>varchar(767)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="328" parent="239" name="TYPE_NAME">
+      <DasType>mediumtext|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="329" parent="239" name="INTEGER_IDX">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="330" parent="239" name="COLUMNS_V2_FK1">
+      <ColNames>CD_ID</ColNames>
+      <RefColNames>CD_ID</RefColNames>
+      <RefTableName>CDS</RefTableName>
+    </foreign-key>
+    <index id="331" parent="239" name="PRIMARY">
+      <ColNames>CD_ID
+COLUMN_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="332" parent="239" name="COLUMNS_V2_N49">
+      <ColNames>CD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="333" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="334" parent="240" name="CQ_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="335" parent="240" name="CQ_DATABASE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="336" parent="240" name="CQ_TABLE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="337" parent="240" name="CQ_PARTITION">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="338" parent="240" name="CQ_STATE">
+      <DasType>char(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="339" parent="240" name="CQ_TYPE">
+      <DasType>char(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="340" parent="240" name="CQ_TBLPROPERTIES">
+      <DasType>varchar(2048)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="341" parent="240" name="CQ_WORKER_ID">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="342" parent="240" name="CQ_START">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="343" parent="240" name="CQ_RUN_AS">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="344" parent="240" name="CQ_HIGHEST_WRITE_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="345" parent="240" name="CQ_META_INFO">
+      <DasType>varbinary(2048)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="346" parent="240" name="CQ_HADOOP_JOB_ID">
+      <DasType>varchar(32)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <index id="347" parent="240" name="PRIMARY">
+      <ColNames>CQ_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="348" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="349" parent="241" name="CC_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="350" parent="241" name="CC_DATABASE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="351" parent="241" name="CC_TABLE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="352" parent="241" name="CC_PARTITION">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="353" parent="241" name="CC_STATE">
+      <DasType>char(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="354" parent="241" name="CC_TYPE">
+      <DasType>char(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="355" parent="241" name="CC_TBLPROPERTIES">
+      <DasType>varchar(2048)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="356" parent="241" name="CC_WORKER_ID">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="357" parent="241" name="CC_START">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="358" parent="241" name="CC_END">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="359" parent="241" name="CC_RUN_AS">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="360" parent="241" name="CC_HIGHEST_WRITE_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="361" parent="241" name="CC_META_INFO">
+      <DasType>varbinary(2048)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="362" parent="241" name="CC_HADOOP_JOB_ID">
+      <DasType>varchar(32)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <index id="363" parent="241" name="PRIMARY">
+      <ColNames>CC_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="364" parent="241" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="365" parent="242" name="CTC_TXNID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="366" parent="242" name="CTC_DATABASE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="367" parent="242" name="CTC_TABLE">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="368" parent="242" name="CTC_PARTITION">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="369" parent="242" name="CTC_TIMESTAMP">
+      <DasType>timestamp|0s</DasType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="370" parent="242" name="CTC_WRITEID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="371" parent="242" name="CTC_UPDATE_DELETE">
+      <DasType>char(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <index id="372" parent="242" name="COMPLETED_TXN_COMPONENTS_IDX">
+      <ColNames>CTC_DATABASE
+CTC_TABLE
+CTC_PARTITION</ColNames>
+      <Type>btree</Type>
+    </index>
+    <column id="373" parent="243" name="CTLG_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="374" parent="243" name="NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="375" parent="243" name="DESC">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="376" parent="243" name="LOCATION_URI">
+      <DasType>varchar(4000)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <index id="377" parent="243" name="PRIMARY">
+      <ColNames>CTLG_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="378" parent="243" name="UNIQUE_CATALOG">
+      <ColNames>NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="379" parent="243" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="380" parent="243" name="UNIQUE_CATALOG">
+      <UnderlyingIndexName>UNIQUE_CATALOG</UnderlyingIndexName>
+    </key>
+    <column id="381" parent="244" name="DB_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="382" parent="244" name="PARAM_KEY">
+      <DasType>varchar(180)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="383" parent="244" name="PARAM_VALUE">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="384" parent="244" name="DATABASE_PARAMS_FK1">
+      <ColNames>DB_ID</ColNames>
+      <RefColNames>DB_ID</RefColNames>
+      <RefTableName>DBS</RefTableName>
+    </foreign-key>
+    <index id="385" parent="244" name="PRIMARY">
+      <ColNames>DB_ID
+PARAM_KEY</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="386" parent="244" name="DATABASE_PARAMS_N49">
+      <ColNames>DB_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="387" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="388" parent="245" name="DB_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="389" parent="245" name="DESC">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="390" parent="245" name="DB_LOCATION_URI">
+      <DasType>varchar(4000)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="391" parent="245" name="NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="392" parent="245" name="OWNER_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="393" parent="245" name="OWNER_TYPE">
+      <DasType>varchar(10)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="394" parent="245" name="CTLG_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <DefaultExpression>&apos;hive&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <foreign-key id="395" parent="245" name="CTLG_FK1">
+      <ColNames>CTLG_NAME</ColNames>
+      <RefColNames>NAME</RefColNames>
+      <RefTableName>CTLGS</RefTableName>
+    </foreign-key>
+    <index id="396" parent="245" name="PRIMARY">
+      <ColNames>DB_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="397" parent="245" name="UNIQUEDATABASE">
+      <ColNames>NAME
+CTLG_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="398" parent="245" name="UNIQUE_DATABASE">
+      <ColNames>NAME
+CTLG_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="399" parent="245" name="CTLG_FK1">
+      <ColNames>CTLG_NAME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="400" parent="245" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="401" parent="245" name="UNIQUEDATABASE">
+      <UnderlyingIndexName>UNIQUEDATABASE</UnderlyingIndexName>
+    </key>
+    <key id="402" parent="245" name="UNIQUE_DATABASE">
+      <UnderlyingIndexName>UNIQUE_DATABASE</UnderlyingIndexName>
+    </key>
+    <column id="403" parent="246" name="DB_GRANT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="404" parent="246" name="CREATE_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="405" parent="246" name="DB_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="406" parent="246" name="GRANT_OPTION">
+      <DasType>smallint(6)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="407" parent="246" name="GRANTOR">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="408" parent="246" name="GRANTOR_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="409" parent="246" name="PRINCIPAL_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>7</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="410" parent="246" name="PRINCIPAL_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>8</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="411" parent="246" name="DB_PRIV">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>9</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="412" parent="246" name="AUTHORIZER">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>10</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="413" parent="246" name="DB_PRIVS_FK1">
+      <ColNames>DB_ID</ColNames>
+      <RefColNames>DB_ID</RefColNames>
+      <RefTableName>DBS</RefTableName>
+    </foreign-key>
+    <index id="414" parent="246" name="PRIMARY">
+      <ColNames>DB_GRANT_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="415" parent="246" name="DBPRIVILEGEINDEX">
+      <ColNames>AUTHORIZER
+DB_ID
+PRINCIPAL_NAME
+PRINCIPAL_TYPE
+DB_PRIV
+GRANTOR
+GRANTOR_TYPE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="416" parent="246" name="DB_PRIVS_N49">
+      <ColNames>DB_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="417" parent="246" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="418" parent="246" name="DBPRIVILEGEINDEX">
+      <UnderlyingIndexName>DBPRIVILEGEINDEX</UnderlyingIndexName>
+    </key>
+    <column id="419" parent="247" name="TOKEN_IDENT">
+      <DasType>varchar(767)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="420" parent="247" name="TOKEN">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <index id="421" parent="247" name="PRIMARY">
+      <ColNames>TOKEN_IDENT</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="422" parent="247" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="423" parent="248" name="FUNC_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="424" parent="248" name="CLASS_NAME">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="425" parent="248" name="CREATE_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="426" parent="248" name="DB_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="427" parent="248" name="FUNC_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="428" parent="248" name="FUNC_TYPE">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="429" parent="248" name="OWNER_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>7</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="430" parent="248" name="OWNER_TYPE">
+      <DasType>varchar(10)|0s</DasType>
+      <Position>8</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="431" parent="248" name="FUNCS_FK1">
+      <ColNames>DB_ID</ColNames>
+      <RefColNames>DB_ID</RefColNames>
+      <RefTableName>DBS</RefTableName>
+    </foreign-key>
+    <index id="432" parent="248" name="PRIMARY">
+      <ColNames>FUNC_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="433" parent="248" name="UNIQUEFUNCTION">
+      <ColNames>FUNC_NAME
+DB_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="434" parent="248" name="FUNCS_N49">
+      <ColNames>DB_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="435" parent="248" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="436" parent="248" name="UNIQUEFUNCTION">
+      <UnderlyingIndexName>UNIQUEFUNCTION</UnderlyingIndexName>
+    </key>
+    <column id="437" parent="249" name="FUNC_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="438" parent="249" name="RESOURCE_TYPE">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="439" parent="249" name="RESOURCE_URI">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="440" parent="249" name="INTEGER_IDX">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="441" parent="249" name="FUNC_RU_FK1">
+      <ColNames>FUNC_ID</ColNames>
+      <RefColNames>FUNC_ID</RefColNames>
+      <RefTableName>FUNCS</RefTableName>
+    </foreign-key>
+    <index id="442" parent="249" name="PRIMARY">
+      <ColNames>FUNC_ID
+INTEGER_IDX</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="443" parent="249" name="FUNC_RU_N49">
+      <ColNames>FUNC_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="444" parent="249" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="445" parent="250" name="USER_GRANT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="446" parent="250" name="CREATE_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="447" parent="250" name="GRANT_OPTION">
+      <DasType>smallint(6)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="448" parent="250" name="GRANTOR">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="449" parent="250" name="GRANTOR_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="450" parent="250" name="PRINCIPAL_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="451" parent="250" name="PRINCIPAL_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>7</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="452" parent="250" name="USER_PRIV">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>8</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="453" parent="250" name="AUTHORIZER">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>9</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <index id="454" parent="250" name="PRIMARY">
+      <ColNames>USER_GRANT_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="455" parent="250" name="GLOBALPRIVILEGEINDEX">
+      <ColNames>AUTHORIZER
+PRINCIPAL_NAME
+PRINCIPAL_TYPE
+USER_PRIV
+GRANTOR
+GRANTOR_TYPE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="456" parent="250" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="457" parent="250" name="GLOBALPRIVILEGEINDEX">
+      <UnderlyingIndexName>GLOBALPRIVILEGEINDEX</UnderlyingIndexName>
+    </key>
+    <column id="458" parent="251" name="HL_LOCK_EXT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="459" parent="251" name="HL_LOCK_INT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="460" parent="251" name="HL_TXNID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="461" parent="251" name="HL_DB">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="462" parent="251" name="HL_TABLE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="463" parent="251" name="HL_PARTITION">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="464" parent="251" name="HL_LOCK_STATE">
+      <DasType>char(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="465" parent="251" name="HL_LOCK_TYPE">
+      <DasType>char(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="466" parent="251" name="HL_LAST_HEARTBEAT">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="467" parent="251" name="HL_ACQUIRED_AT">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="468" parent="251" name="HL_USER">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="469" parent="251" name="HL_HOST">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+    </column>
+    <column id="470" parent="251" name="HL_HEARTBEAT_COUNT">
+      <DasType>int(11)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <column id="471" parent="251" name="HL_AGENT_INFO">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>14</Position>
+    </column>
+    <column id="472" parent="251" name="HL_BLOCKEDBY_EXT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="473" parent="251" name="HL_BLOCKEDBY_INT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <index id="474" parent="251" name="PRIMARY">
+      <ColNames>HL_LOCK_EXT_ID
+HL_LOCK_INT_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="475" parent="251" name="HIVE_LOCK_TXNID_INDEX">
+      <ColNames>HL_TXNID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="476" parent="251" name="HL_TXNID_IDX">
+      <ColNames>HL_TXNID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="477" parent="251" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="478" parent="252" name="INDEX_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="479" parent="252" name="CREATE_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="480" parent="252" name="DEFERRED_REBUILD">
+      <DasType>bit(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="481" parent="252" name="INDEX_HANDLER_CLASS">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="482" parent="252" name="INDEX_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="483" parent="252" name="INDEX_TBL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="484" parent="252" name="LAST_ACCESS_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="485" parent="252" name="ORIG_TBL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="486" parent="252" name="SD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <foreign-key id="487" parent="252" name="IDXS_FK3">
+      <ColNames>INDEX_TBL_ID</ColNames>
+      <RefColNames>TBL_ID</RefColNames>
+      <RefTableName>TBLS</RefTableName>
+    </foreign-key>
+    <foreign-key id="488" parent="252" name="IDXS_FK1">
+      <ColNames>ORIG_TBL_ID</ColNames>
+      <RefColNames>TBL_ID</RefColNames>
+      <RefTableName>TBLS</RefTableName>
+    </foreign-key>
+    <foreign-key id="489" parent="252" name="IDXS_FK2">
+      <ColNames>SD_ID</ColNames>
+      <RefColNames>SD_ID</RefColNames>
+      <RefTableName>SDS</RefTableName>
+    </foreign-key>
+    <index id="490" parent="252" name="PRIMARY">
+      <ColNames>INDEX_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="491" parent="252" name="UNIQUEINDEX">
+      <ColNames>INDEX_NAME
+ORIG_TBL_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="492" parent="252" name="IDXS_N50">
+      <ColNames>INDEX_TBL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="493" parent="252" name="IDXS_N49">
+      <ColNames>ORIG_TBL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="494" parent="252" name="IDXS_N51">
+      <ColNames>SD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="495" parent="252" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="496" parent="252" name="UNIQUEINDEX">
+      <UnderlyingIndexName>UNIQUEINDEX</UnderlyingIndexName>
+    </key>
+    <column id="497" parent="253" name="INDEX_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="498" parent="253" name="PARAM_KEY">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="499" parent="253" name="PARAM_VALUE">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="500" parent="253" name="INDEX_PARAMS_FK1">
+      <ColNames>INDEX_ID</ColNames>
+      <RefColNames>INDEX_ID</RefColNames>
+      <RefTableName>IDXS</RefTableName>
+    </foreign-key>
+    <index id="501" parent="253" name="PRIMARY">
+      <ColNames>INDEX_ID
+PARAM_KEY</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="502" parent="253" name="INDEX_PARAMS_N49">
+      <ColNames>INDEX_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="503" parent="253" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="504" parent="254" name="SCHEMA_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="505" parent="254" name="SCHEMA_TYPE">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="506" parent="254" name="NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="507" parent="254" name="DB_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="508" parent="254" name="COMPATIBILITY">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="509" parent="254" name="VALIDATION_LEVEL">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="510" parent="254" name="CAN_EVOLVE">
+      <DasType>bit(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="511" parent="254" name="SCHEMA_GROUP">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="512" parent="254" name="DESCRIPTION">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <foreign-key id="513" parent="254" name="I_SCHEMA_ibfk_1">
+      <ColNames>DB_ID</ColNames>
+      <RefColNames>DB_ID</RefColNames>
+      <RefTableName>DBS</RefTableName>
+    </foreign-key>
+    <index id="514" parent="254" name="PRIMARY">
+      <ColNames>SCHEMA_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="515" parent="254" name="UNIQUE_NAME">
+      <ColNames>NAME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="516" parent="254" name="DB_ID">
+      <ColNames>DB_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="517" parent="254" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="518" parent="255" name="CHILD_CD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="519" parent="255" name="CHILD_INTEGER_IDX">
+      <DasType>int(11)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="520" parent="255" name="CHILD_TBL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="521" parent="255" name="PARENT_CD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="522" parent="255" name="PARENT_INTEGER_IDX">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="523" parent="255" name="PARENT_TBL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="524" parent="255" name="POSITION">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="525" parent="255" name="CONSTRAINT_NAME">
+      <DasType>varchar(400)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="526" parent="255" name="CONSTRAINT_TYPE">
+      <DasType>smallint(6)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="527" parent="255" name="UPDATE_RULE">
+      <DasType>smallint(6)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="528" parent="255" name="DELETE_RULE">
+      <DasType>smallint(6)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="529" parent="255" name="ENABLE_VALIDATE_RELY">
+      <DasType>smallint(6)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+    </column>
+    <column id="530" parent="255" name="DEFAULT_VALUE">
+      <DasType>varchar(400)|0s</DasType>
+      <Position>13</Position>
+    </column>
+    <foreign-key id="531" parent="255" name="KEY_CONSTRAINTS_FK1">
+      <ColNames>CHILD_CD_ID</ColNames>
+      <RefColNames>CD_ID</RefColNames>
+      <RefTableName>CDS</RefTableName>
+    </foreign-key>
+    <foreign-key id="532" parent="255" name="KEY_CONSTRAINTS_FK2">
+      <ColNames>CHILD_TBL_ID</ColNames>
+      <RefColNames>TBL_ID</RefColNames>
+      <RefTableName>TBLS</RefTableName>
+    </foreign-key>
+    <foreign-key id="533" parent="255" name="KEY_CONSTRAINTS_FK3">
+      <ColNames>PARENT_CD_ID</ColNames>
+      <RefColNames>CD_ID</RefColNames>
+      <RefTableName>CDS</RefTableName>
+    </foreign-key>
+    <foreign-key id="534" parent="255" name="KEY_CONSTRAINTS_FK4">
+      <ColNames>PARENT_TBL_ID</ColNames>
+      <RefColNames>TBL_ID</RefColNames>
+      <RefTableName>TBLS</RefTableName>
+    </foreign-key>
+    <index id="535" parent="255" name="PRIMARY">
+      <ColNames>CONSTRAINT_NAME
+POSITION</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="536" parent="255" name="KEY_CONSTRAINTS_N50">
+      <ColNames>CHILD_CD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="537" parent="255" name="KEY_CONSTRAINTS_N51">
+      <ColNames>CHILD_TBL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="538" parent="255" name="KEY_CONSTRAINTS_N49">
+      <ColNames>PARENT_CD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="539" parent="255" name="CONSTRAINTS_PARENT_TABLE_ID_INDEX">
+      <ColNames>PARENT_TBL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="540" parent="255" name="CONSTRAINTS_CONSTRAINT_TYPE_INDEX">
+      <ColNames>CONSTRAINT_TYPE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="541" parent="255" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="542" parent="256" name="KEY_ID">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="543" parent="256" name="MASTER_KEY">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <index id="544" parent="256" name="PRIMARY">
+      <ColNames>KEY_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="545" parent="256" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="546" parent="257" name="MRL_TXN_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="547" parent="257" name="MRL_DB_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="548" parent="257" name="MRL_TBL_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="549" parent="257" name="MRL_LAST_HEARTBEAT">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <index id="550" parent="257" name="PRIMARY">
+      <ColNames>MRL_TXN_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="551" parent="257" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="552" parent="258" name="PROPERTY_KEY">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="553" parent="258" name="PROPERTY_VALUE">
+      <DasType>varchar(1000)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="554" parent="258" name="DESCRIPTION">
+      <DasType>varchar(1000)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="555" parent="258" name="PRIMARY">
+      <ColNames>PROPERTY_KEY</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="556" parent="258" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="557" parent="259" name="MHL_TXNID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="558" parent="259" name="MHL_MIN_OPEN_TXNID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="559" parent="259" name="PRIMARY">
+      <ColNames>MHL_TXNID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="560" parent="259" name="MIN_HISTORY_LEVEL_IDX">
+      <ColNames>MHL_MIN_OPEN_TXNID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="561" parent="259" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="562" parent="260" name="MV_CREATION_METADATA_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="563" parent="260" name="CAT_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="564" parent="260" name="DB_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="565" parent="260" name="TBL_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="566" parent="260" name="TXN_LIST">
+      <DasType>text|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="567" parent="260" name="MATERIALIZATION_TIME">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <index id="568" parent="260" name="PRIMARY">
+      <ColNames>MV_CREATION_METADATA_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="569" parent="260" name="MV_UNIQUE_TABLE">
+      <ColNames>TBL_NAME
+DB_NAME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="570" parent="260" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="571" parent="261" name="MV_CREATION_METADATA_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="572" parent="261" name="TBL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="573" parent="261" name="MV_TABLES_USED_FK1">
+      <ColNames>MV_CREATION_METADATA_ID</ColNames>
+      <RefColNames>MV_CREATION_METADATA_ID</RefColNames>
+      <RefTableName>MV_CREATION_METADATA</RefTableName>
+    </foreign-key>
+    <foreign-key id="574" parent="261" name="MV_TABLES_USED_FK2">
+      <ColNames>TBL_ID</ColNames>
+      <RefColNames>TBL_ID</RefColNames>
+      <RefTableName>TBLS</RefTableName>
+    </foreign-key>
+    <index id="575" parent="261" name="MV_TABLES_USED_FK1">
+      <ColNames>MV_CREATION_METADATA_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="576" parent="261" name="MV_TABLES_USED_FK2">
+      <ColNames>TBL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <column id="577" parent="262" name="NCQ_NEXT">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="578" parent="263" name="NL_NEXT">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="579" parent="264" name="NTXN_NEXT">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="580" parent="265" name="NWI_DATABASE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="581" parent="265" name="NWI_TABLE">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="582" parent="265" name="NWI_NEXT">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="583" parent="265" name="NEXT_WRITE_ID_IDX">
+      <ColNames>NWI_DATABASE
+NWI_TABLE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="584" parent="265" name="NEXT_WRITE_ID_IDX">
+      <UnderlyingIndexName>NEXT_WRITE_ID_IDX</UnderlyingIndexName>
+    </key>
+    <column id="585" parent="266" name="NL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="586" parent="266" name="EVENT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="587" parent="266" name="EVENT_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="588" parent="266" name="EVENT_TYPE">
+      <DasType>varchar(32)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="589" parent="266" name="CAT_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="590" parent="266" name="DB_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="591" parent="266" name="TBL_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="592" parent="266" name="MESSAGE">
+      <DasType>longtext|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="593" parent="266" name="MESSAGE_FORMAT">
+      <DasType>varchar(16)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <index id="594" parent="266" name="PRIMARY">
+      <ColNames>NL_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="595" parent="266" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="596" parent="267" name="NNI_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="597" parent="267" name="NEXT_EVENT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="598" parent="267" name="PRIMARY">
+      <ColNames>NNI_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="599" parent="267" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="600" parent="268" name="CLASS_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="601" parent="268" name="TABLE_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="602" parent="268" name="TYPE">
+      <DasType>varchar(4)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="603" parent="268" name="OWNER">
+      <DasType>varchar(2)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="604" parent="268" name="VERSION">
+      <DasType>varchar(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="605" parent="268" name="INTERFACE_NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <index id="606" parent="268" name="PRIMARY">
+      <ColNames>CLASS_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="607" parent="268" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="608" parent="269" name="PART_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="609" parent="269" name="CREATE_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="610" parent="269" name="LAST_ACCESS_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="611" parent="269" name="PART_NAME">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="612" parent="269" name="SD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="613" parent="269" name="TBL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="614" parent="269" name="PARTITIONS_FK2">
+      <ColNames>SD_ID</ColNames>
+      <RefColNames>SD_ID</RefColNames>
+      <RefTableName>SDS</RefTableName>
+    </foreign-key>
+    <foreign-key id="615" parent="269" name="PARTITIONS_FK1">
+      <ColNames>TBL_ID</ColNames>
+      <RefColNames>TBL_ID</RefColNames>
+      <RefTableName>TBLS</RefTableName>
+    </foreign-key>
+    <index id="616" parent="269" name="PRIMARY">
+      <ColNames>PART_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="617" parent="269" name="UNIQUEPARTITION">
+      <ColNames>PART_NAME
+TBL_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="618" parent="269" name="PARTITIONS_N50">
+      <ColNames>SD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="619" parent="269" name="PARTITIONS_N49">
+      <ColNames>TBL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="620" parent="269" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="621" parent="269" name="UNIQUEPARTITION">
+      <UnderlyingIndexName>UNIQUEPARTITION</UnderlyingIndexName>
+    </key>
+    <column id="622" parent="270" name="PART_NAME_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="623" parent="270" name="CAT_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="624" parent="270" name="DB_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="625" parent="270" name="EVENT_TIME">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="626" parent="270" name="EVENT_TYPE">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="627" parent="270" name="PARTITION_NAME">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="628" parent="270" name="TBL_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>7</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <index id="629" parent="270" name="PRIMARY">
+      <ColNames>PART_NAME_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="630" parent="270" name="PARTITIONEVENTINDEX">
+      <ColNames>PARTITION_NAME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="631" parent="270" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="632" parent="271" name="TBL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="633" parent="271" name="PKEY_COMMENT">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="634" parent="271" name="PKEY_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="635" parent="271" name="PKEY_TYPE">
+      <DasType>varchar(767)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="636" parent="271" name="INTEGER_IDX">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="637" parent="271" name="PARTITION_KEYS_FK1">
+      <ColNames>TBL_ID</ColNames>
+      <RefColNames>TBL_ID</RefColNames>
+      <RefTableName>TBLS</RefTableName>
+    </foreign-key>
+    <index id="638" parent="271" name="PRIMARY">
+      <ColNames>TBL_ID
+PKEY_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="639" parent="271" name="PARTITION_KEYS_N49">
+      <ColNames>TBL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="640" parent="271" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="641" parent="272" name="PART_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="642" parent="272" name="PART_KEY_VAL">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="643" parent="272" name="INTEGER_IDX">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="644" parent="272" name="PARTITION_KEY_VALS_FK1">
+      <ColNames>PART_ID</ColNames>
+      <RefColNames>PART_ID</RefColNames>
+      <RefTableName>PARTITIONS</RefTableName>
+    </foreign-key>
+    <index id="645" parent="272" name="PRIMARY">
+      <ColNames>PART_ID
+INTEGER_IDX</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="646" parent="272" name="PARTITION_KEY_VALS_N49">
+      <ColNames>PART_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="647" parent="272" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="648" parent="273" name="PART_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="649" parent="273" name="PARAM_KEY">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="650" parent="273" name="PARAM_VALUE">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="651" parent="273" name="PARTITION_PARAMS_FK1">
+      <ColNames>PART_ID</ColNames>
+      <RefColNames>PART_ID</RefColNames>
+      <RefTableName>PARTITIONS</RefTableName>
+    </foreign-key>
+    <index id="652" parent="273" name="PRIMARY">
+      <ColNames>PART_ID
+PARAM_KEY</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="653" parent="273" name="PARTITION_PARAMS_N49">
+      <ColNames>PART_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="654" parent="273" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="655" parent="274" name="PART_COLUMN_GRANT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="656" parent="274" name="COLUMN_NAME">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="657" parent="274" name="CREATE_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="658" parent="274" name="GRANT_OPTION">
+      <DasType>smallint(6)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="659" parent="274" name="GRANTOR">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="660" parent="274" name="GRANTOR_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="661" parent="274" name="PART_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="662" parent="274" name="PRINCIPAL_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>8</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="663" parent="274" name="PRINCIPAL_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>9</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="664" parent="274" name="PART_COL_PRIV">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>10</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="665" parent="274" name="AUTHORIZER">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>11</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="666" parent="274" name="PART_COL_PRIVS_FK1">
+      <ColNames>PART_ID</ColNames>
+      <RefColNames>PART_ID</RefColNames>
+      <RefTableName>PARTITIONS</RefTableName>
+    </foreign-key>
+    <index id="667" parent="274" name="PRIMARY">
+      <ColNames>PART_COLUMN_GRANT_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="668" parent="274" name="PART_COL_PRIVS_N49">
+      <ColNames>PART_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="669" parent="274" name="PARTITIONCOLUMNPRIVILEGEINDEX">
+      <ColNames>AUTHORIZER
+PART_ID
+COLUMN_NAME
+PRINCIPAL_NAME
+PRINCIPAL_TYPE
+PART_COL_PRIV
+GRANTOR
+GRANTOR_TYPE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="670" parent="274" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="671" parent="275" name="CS_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="672" parent="275" name="CAT_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="673" parent="275" name="DB_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="674" parent="275" name="TABLE_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="675" parent="275" name="PARTITION_NAME">
+      <DasType>varchar(767)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="676" parent="275" name="COLUMN_NAME">
+      <DasType>varchar(767)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="677" parent="275" name="COLUMN_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="678" parent="275" name="PART_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="679" parent="275" name="LONG_LOW_VALUE">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="680" parent="275" name="LONG_HIGH_VALUE">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="681" parent="275" name="DOUBLE_HIGH_VALUE">
+      <DasType>double(53,4 digit)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="682" parent="275" name="DOUBLE_LOW_VALUE">
+      <DasType>double(53,4 digit)|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="683" parent="275" name="BIG_DECIMAL_LOW_VALUE">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>13</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="684" parent="275" name="BIG_DECIMAL_HIGH_VALUE">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>14</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="685" parent="275" name="NUM_NULLS">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>15</Position>
+    </column>
+    <column id="686" parent="275" name="NUM_DISTINCTS">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="687" parent="275" name="BIT_VECTOR">
+      <DasType>blob|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="688" parent="275" name="AVG_COL_LEN">
+      <DasType>double(53,4 digit)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="689" parent="275" name="MAX_COL_LEN">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="690" parent="275" name="NUM_TRUES">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="691" parent="275" name="NUM_FALSES">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>21</Position>
+    </column>
+    <column id="692" parent="275" name="LAST_ANALYZED">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>22</Position>
+    </column>
+    <foreign-key id="693" parent="275" name="PART_COL_STATS_FK">
+      <ColNames>PART_ID</ColNames>
+      <RefColNames>PART_ID</RefColNames>
+      <RefTableName>PARTITIONS</RefTableName>
+    </foreign-key>
+    <index id="694" parent="275" name="PRIMARY">
+      <ColNames>CS_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="695" parent="275" name="PCS_STATS_IDX">
+      <ColNames>CAT_NAME
+DB_NAME
+TABLE_NAME
+COLUMN_NAME
+PARTITION_NAME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="696" parent="275" name="PART_COL_STATS_FK">
+      <ColNames>PART_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="697" parent="275" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="698" parent="276" name="PART_GRANT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="699" parent="276" name="CREATE_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="700" parent="276" name="GRANT_OPTION">
+      <DasType>smallint(6)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="701" parent="276" name="GRANTOR">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="702" parent="276" name="GRANTOR_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="703" parent="276" name="PART_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="704" parent="276" name="PRINCIPAL_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>7</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="705" parent="276" name="PRINCIPAL_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>8</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="706" parent="276" name="PART_PRIV">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>9</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="707" parent="276" name="AUTHORIZER">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>10</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="708" parent="276" name="PART_PRIVS_FK1">
+      <ColNames>PART_ID</ColNames>
+      <RefColNames>PART_ID</RefColNames>
+      <RefTableName>PARTITIONS</RefTableName>
+    </foreign-key>
+    <index id="709" parent="276" name="PRIMARY">
+      <ColNames>PART_GRANT_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="710" parent="276" name="PART_PRIVS_N49">
+      <ColNames>PART_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="711" parent="276" name="PARTPRIVILEGEINDEX">
+      <ColNames>AUTHORIZER
+PART_ID
+PRINCIPAL_NAME
+PRINCIPAL_TYPE
+PART_PRIV
+GRANTOR
+GRANTOR_TYPE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="712" parent="276" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="713" parent="277" name="RTM_REPL_POLICY">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="714" parent="277" name="RTM_SRC_TXN_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="715" parent="277" name="RTM_TARGET_TXN_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="716" parent="277" name="PRIMARY">
+      <ColNames>RTM_REPL_POLICY
+RTM_SRC_TXN_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="717" parent="277" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="718" parent="278" name="ROLE_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="719" parent="278" name="CREATE_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="720" parent="278" name="OWNER_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="721" parent="278" name="ROLE_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <index id="722" parent="278" name="PRIMARY">
+      <ColNames>ROLE_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="723" parent="278" name="ROLEENTITYINDEX">
+      <ColNames>ROLE_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="724" parent="278" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="725" parent="278" name="ROLEENTITYINDEX">
+      <UnderlyingIndexName>ROLEENTITYINDEX</UnderlyingIndexName>
+    </key>
+    <column id="726" parent="279" name="ROLE_GRANT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="727" parent="279" name="ADD_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="728" parent="279" name="GRANT_OPTION">
+      <DasType>smallint(6)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="729" parent="279" name="GRANTOR">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="730" parent="279" name="GRANTOR_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="731" parent="279" name="PRINCIPAL_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="732" parent="279" name="PRINCIPAL_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>7</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="733" parent="279" name="ROLE_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <foreign-key id="734" parent="279" name="ROLE_MAP_FK1">
+      <ColNames>ROLE_ID</ColNames>
+      <RefColNames>ROLE_ID</RefColNames>
+      <RefTableName>ROLES</RefTableName>
+    </foreign-key>
+    <index id="735" parent="279" name="PRIMARY">
+      <ColNames>ROLE_GRANT_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="736" parent="279" name="USERROLEMAPINDEX">
+      <ColNames>PRINCIPAL_NAME
+ROLE_ID
+GRANTOR
+GRANTOR_TYPE</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="737" parent="279" name="ROLE_MAP_N49">
+      <ColNames>ROLE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="738" parent="279" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="739" parent="279" name="USERROLEMAPINDEX">
+      <UnderlyingIndexName>USERROLEMAPINDEX</UnderlyingIndexName>
+    </key>
+    <column id="740" parent="280" name="RS_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="741" parent="280" name="CREATE_TIME">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="742" parent="280" name="WEIGHT">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="743" parent="280" name="PAYLOAD">
+      <DasType>blob|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="744" parent="280" name="PRIMARY">
+      <ColNames>RS_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="745" parent="280" name="IDX_RUNTIME_STATS_CREATE_TIME">
+      <ColNames>CREATE_TIME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="746" parent="280" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="747" parent="281" name="SCHEMA_VERSION_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="748" parent="281" name="SCHEMA_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="749" parent="281" name="VERSION">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="750" parent="281" name="CREATED_AT">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="751" parent="281" name="CD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="752" parent="281" name="STATE">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="753" parent="281" name="DESCRIPTION">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="754" parent="281" name="SCHEMA_TEXT">
+      <DasType>mediumtext|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="755" parent="281" name="FINGERPRINT">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="756" parent="281" name="SCHEMA_VERSION_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="757" parent="281" name="SERDE_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <foreign-key id="758" parent="281" name="SCHEMA_VERSION_ibfk_1">
+      <ColNames>SCHEMA_ID</ColNames>
+      <RefColNames>SCHEMA_ID</RefColNames>
+      <RefTableName>I_SCHEMA</RefTableName>
+    </foreign-key>
+    <foreign-key id="759" parent="281" name="SCHEMA_VERSION_ibfk_2">
+      <ColNames>CD_ID</ColNames>
+      <RefColNames>CD_ID</RefColNames>
+      <RefTableName>CDS</RefTableName>
+    </foreign-key>
+    <foreign-key id="760" parent="281" name="SCHEMA_VERSION_ibfk_3">
+      <ColNames>SERDE_ID</ColNames>
+      <RefColNames>SERDE_ID</RefColNames>
+      <RefTableName>SERDES</RefTableName>
+    </foreign-key>
+    <index id="761" parent="281" name="PRIMARY">
+      <ColNames>SCHEMA_VERSION_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="762" parent="281" name="UNIQUE_VERSION">
+      <ColNames>SCHEMA_ID
+VERSION</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="763" parent="281" name="CD_ID">
+      <ColNames>CD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="764" parent="281" name="SERDE_ID">
+      <ColNames>SERDE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="765" parent="281" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="766" parent="282" name="SD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="767" parent="282" name="CD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="768" parent="282" name="INPUT_FORMAT">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="769" parent="282" name="IS_COMPRESSED">
+      <DasType>bit(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="770" parent="282" name="IS_STOREDASSUBDIRECTORIES">
+      <DasType>bit(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="771" parent="282" name="LOCATION">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="772" parent="282" name="NUM_BUCKETS">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="773" parent="282" name="OUTPUT_FORMAT">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>8</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="774" parent="282" name="SERDE_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <foreign-key id="775" parent="282" name="SDS_FK2">
+      <ColNames>CD_ID</ColNames>
+      <RefColNames>CD_ID</RefColNames>
+      <RefTableName>CDS</RefTableName>
+    </foreign-key>
+    <foreign-key id="776" parent="282" name="SDS_FK1">
+      <ColNames>SERDE_ID</ColNames>
+      <RefColNames>SERDE_ID</RefColNames>
+      <RefTableName>SERDES</RefTableName>
+    </foreign-key>
+    <index id="777" parent="282" name="PRIMARY">
+      <ColNames>SD_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="778" parent="282" name="SDS_N50">
+      <ColNames>CD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="779" parent="282" name="SDS_N49">
+      <ColNames>SERDE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="780" parent="282" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="781" parent="283" name="SD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="782" parent="283" name="PARAM_KEY">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="783" parent="283" name="PARAM_VALUE">
+      <DasType>mediumtext|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="784" parent="283" name="SD_PARAMS_FK1">
+      <ColNames>SD_ID</ColNames>
+      <RefColNames>SD_ID</RefColNames>
+      <RefTableName>SDS</RefTableName>
+    </foreign-key>
+    <index id="785" parent="283" name="PRIMARY">
+      <ColNames>SD_ID
+PARAM_KEY</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="786" parent="283" name="SD_PARAMS_N49">
+      <ColNames>SD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="787" parent="283" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="788" parent="284" name="SEQUENCE_NAME">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="789" parent="284" name="NEXT_VAL">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="790" parent="284" name="PRIMARY">
+      <ColNames>SEQUENCE_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="791" parent="284" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="792" parent="285" name="SERDE_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="793" parent="285" name="NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="794" parent="285" name="SLIB">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="795" parent="285" name="DESCRIPTION">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="796" parent="285" name="SERIALIZER_CLASS">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="797" parent="285" name="DESERIALIZER_CLASS">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="798" parent="285" name="SERDE_TYPE">
+      <DasType>int(11)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="799" parent="285" name="PRIMARY">
+      <ColNames>SERDE_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="800" parent="285" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="801" parent="286" name="SERDE_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="802" parent="286" name="PARAM_KEY">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="803" parent="286" name="PARAM_VALUE">
+      <DasType>mediumtext|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="804" parent="286" name="SERDE_PARAMS_FK1">
+      <ColNames>SERDE_ID</ColNames>
+      <RefColNames>SERDE_ID</RefColNames>
+      <RefTableName>SERDES</RefTableName>
+    </foreign-key>
+    <index id="805" parent="286" name="PRIMARY">
+      <ColNames>SERDE_ID
+PARAM_KEY</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="806" parent="286" name="SERDE_PARAMS_N49">
+      <ColNames>SERDE_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="807" parent="286" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="808" parent="287" name="SD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="809" parent="287" name="SKEWED_COL_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="810" parent="287" name="INTEGER_IDX">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="811" parent="287" name="SKEWED_COL_NAMES_FK1">
+      <ColNames>SD_ID</ColNames>
+      <RefColNames>SD_ID</RefColNames>
+      <RefTableName>SDS</RefTableName>
+    </foreign-key>
+    <index id="812" parent="287" name="PRIMARY">
+      <ColNames>SD_ID
+INTEGER_IDX</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="813" parent="287" name="SKEWED_COL_NAMES_N49">
+      <ColNames>SD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="814" parent="287" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="815" parent="288" name="SD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="816" parent="288" name="STRING_LIST_ID_KID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="817" parent="288" name="LOCATION">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="818" parent="288" name="SKEWED_COL_VALUE_LOC_MAP_FK1">
+      <ColNames>SD_ID</ColNames>
+      <RefColNames>SD_ID</RefColNames>
+      <RefTableName>SDS</RefTableName>
+    </foreign-key>
+    <foreign-key id="819" parent="288" name="SKEWED_COL_VALUE_LOC_MAP_FK2">
+      <ColNames>STRING_LIST_ID_KID</ColNames>
+      <RefColNames>STRING_LIST_ID</RefColNames>
+      <RefTableName>SKEWED_STRING_LIST</RefTableName>
+    </foreign-key>
+    <index id="820" parent="288" name="PRIMARY">
+      <ColNames>SD_ID
+STRING_LIST_ID_KID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="821" parent="288" name="SKEWED_COL_VALUE_LOC_MAP_N50">
+      <ColNames>SD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="822" parent="288" name="SKEWED_COL_VALUE_LOC_MAP_N49">
+      <ColNames>STRING_LIST_ID_KID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="823" parent="288" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="824" parent="289" name="STRING_LIST_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <index id="825" parent="289" name="PRIMARY">
+      <ColNames>STRING_LIST_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="826" parent="289" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="827" parent="290" name="STRING_LIST_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="828" parent="290" name="STRING_LIST_VALUE">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="829" parent="290" name="INTEGER_IDX">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="830" parent="290" name="SKEWED_STRING_LIST_VALUES_FK1">
+      <ColNames>STRING_LIST_ID</ColNames>
+      <RefColNames>STRING_LIST_ID</RefColNames>
+      <RefTableName>SKEWED_STRING_LIST</RefTableName>
+    </foreign-key>
+    <index id="831" parent="290" name="PRIMARY">
+      <ColNames>STRING_LIST_ID
+INTEGER_IDX</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="832" parent="290" name="SKEWED_STRING_LIST_VALUES_N49">
+      <ColNames>STRING_LIST_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="833" parent="290" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="834" parent="291" name="SD_ID_OID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="835" parent="291" name="STRING_LIST_ID_EID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="836" parent="291" name="INTEGER_IDX">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="837" parent="291" name="SKEWED_VALUES_FK1">
+      <ColNames>SD_ID_OID</ColNames>
+      <RefColNames>SD_ID</RefColNames>
+      <RefTableName>SDS</RefTableName>
+    </foreign-key>
+    <foreign-key id="838" parent="291" name="SKEWED_VALUES_FK2">
+      <ColNames>STRING_LIST_ID_EID</ColNames>
+      <RefColNames>STRING_LIST_ID</RefColNames>
+      <RefTableName>SKEWED_STRING_LIST</RefTableName>
+    </foreign-key>
+    <index id="839" parent="291" name="PRIMARY">
+      <ColNames>SD_ID_OID
+INTEGER_IDX</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="840" parent="291" name="SKEWED_VALUES_N50">
+      <ColNames>SD_ID_OID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="841" parent="291" name="SKEWED_VALUES_N49">
+      <ColNames>STRING_LIST_ID_EID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="842" parent="291" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="843" parent="292" name="SD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="844" parent="292" name="COLUMN_NAME">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="845" parent="292" name="ORDER">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="846" parent="292" name="INTEGER_IDX">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="847" parent="292" name="SORT_COLS_FK1">
+      <ColNames>SD_ID</ColNames>
+      <RefColNames>SD_ID</RefColNames>
+      <RefTableName>SDS</RefTableName>
+    </foreign-key>
+    <index id="848" parent="292" name="PRIMARY">
+      <ColNames>SD_ID
+INTEGER_IDX</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="849" parent="292" name="SORT_COLS_N49">
+      <ColNames>SD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="850" parent="292" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="851" parent="293" name="TBL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="852" parent="293" name="PARAM_KEY">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="853" parent="293" name="PARAM_VALUE">
+      <DasType>mediumtext|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="854" parent="293" name="TABLE_PARAMS_FK1">
+      <ColNames>TBL_ID</ColNames>
+      <RefColNames>TBL_ID</RefColNames>
+      <RefTableName>TBLS</RefTableName>
+    </foreign-key>
+    <index id="855" parent="293" name="PRIMARY">
+      <ColNames>TBL_ID
+PARAM_KEY</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="856" parent="293" name="TABLE_PARAMS_N49">
+      <ColNames>TBL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="857" parent="293" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="858" parent="294" name="CS_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="859" parent="294" name="CAT_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="860" parent="294" name="DB_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="861" parent="294" name="TABLE_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="862" parent="294" name="COLUMN_NAME">
+      <DasType>varchar(767)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="863" parent="294" name="COLUMN_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="864" parent="294" name="TBL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="865" parent="294" name="LONG_LOW_VALUE">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="866" parent="294" name="LONG_HIGH_VALUE">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="867" parent="294" name="DOUBLE_HIGH_VALUE">
+      <DasType>double(53,4 digit)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="868" parent="294" name="DOUBLE_LOW_VALUE">
+      <DasType>double(53,4 digit)|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="869" parent="294" name="BIG_DECIMAL_LOW_VALUE">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>12</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="870" parent="294" name="BIG_DECIMAL_HIGH_VALUE">
+      <DasType>varchar(4000)|0s</DasType>
+      <Position>13</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="871" parent="294" name="NUM_NULLS">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>14</Position>
+    </column>
+    <column id="872" parent="294" name="NUM_DISTINCTS">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>15</Position>
+    </column>
+    <column id="873" parent="294" name="BIT_VECTOR">
+      <DasType>blob|0s</DasType>
+      <Position>16</Position>
+    </column>
+    <column id="874" parent="294" name="AVG_COL_LEN">
+      <DasType>double(53,4 digit)|0s</DasType>
+      <Position>17</Position>
+    </column>
+    <column id="875" parent="294" name="MAX_COL_LEN">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>18</Position>
+    </column>
+    <column id="876" parent="294" name="NUM_TRUES">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>19</Position>
+    </column>
+    <column id="877" parent="294" name="NUM_FALSES">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>20</Position>
+    </column>
+    <column id="878" parent="294" name="LAST_ANALYZED">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>21</Position>
+    </column>
+    <foreign-key id="879" parent="294" name="TAB_COL_STATS_FK">
+      <ColNames>TBL_ID</ColNames>
+      <RefColNames>TBL_ID</RefColNames>
+      <RefTableName>TBLS</RefTableName>
+    </foreign-key>
+    <index id="880" parent="294" name="PRIMARY">
+      <ColNames>CS_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="881" parent="294" name="TAB_COL_STATS_IDX">
+      <ColNames>CAT_NAME
+DB_NAME
+TABLE_NAME
+COLUMN_NAME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="882" parent="294" name="TAB_COL_STATS_FK">
+      <ColNames>TBL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="883" parent="294" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="884" parent="295" name="TBL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="885" parent="295" name="CREATE_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="886" parent="295" name="DB_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="887" parent="295" name="LAST_ACCESS_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="888" parent="295" name="OWNER">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="889" parent="295" name="OWNER_TYPE">
+      <DasType>varchar(10)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="890" parent="295" name="RETENTION">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="891" parent="295" name="SD_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="892" parent="295" name="TBL_NAME">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>9</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="893" parent="295" name="TBL_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>10</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="894" parent="295" name="VIEW_EXPANDED_TEXT">
+      <DasType>mediumtext|0s</DasType>
+      <Position>11</Position>
+    </column>
+    <column id="895" parent="295" name="VIEW_ORIGINAL_TEXT">
+      <DasType>mediumtext|0s</DasType>
+      <Position>12</Position>
+    </column>
+    <column id="896" parent="295" name="IS_REWRITE_ENABLED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>13</Position>
+    </column>
+    <foreign-key id="897" parent="295" name="TBLS_FK2">
+      <ColNames>DB_ID</ColNames>
+      <RefColNames>DB_ID</RefColNames>
+      <RefTableName>DBS</RefTableName>
+    </foreign-key>
+    <foreign-key id="898" parent="295" name="TBLS_FK1">
+      <ColNames>SD_ID</ColNames>
+      <RefColNames>SD_ID</RefColNames>
+      <RefTableName>SDS</RefTableName>
+    </foreign-key>
+    <index id="899" parent="295" name="PRIMARY">
+      <ColNames>TBL_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="900" parent="295" name="UNIQUETABLE">
+      <ColNames>TBL_NAME
+DB_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="901" parent="295" name="TBLS_N49">
+      <ColNames>DB_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="902" parent="295" name="TBLS_N50">
+      <ColNames>SD_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="903" parent="295" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="904" parent="295" name="UNIQUETABLE">
+      <UnderlyingIndexName>UNIQUETABLE</UnderlyingIndexName>
+    </key>
+    <column id="905" parent="296" name="TBL_COLUMN_GRANT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="906" parent="296" name="COLUMN_NAME">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="907" parent="296" name="CREATE_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="908" parent="296" name="GRANT_OPTION">
+      <DasType>smallint(6)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="909" parent="296" name="GRANTOR">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="910" parent="296" name="GRANTOR_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="911" parent="296" name="PRINCIPAL_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>7</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="912" parent="296" name="PRINCIPAL_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>8</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="913" parent="296" name="TBL_COL_PRIV">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>9</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="914" parent="296" name="TBL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <column id="915" parent="296" name="AUTHORIZER">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>11</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="916" parent="296" name="TBL_COL_PRIVS_FK1">
+      <ColNames>TBL_ID</ColNames>
+      <RefColNames>TBL_ID</RefColNames>
+      <RefTableName>TBLS</RefTableName>
+    </foreign-key>
+    <index id="917" parent="296" name="PRIMARY">
+      <ColNames>TBL_COLUMN_GRANT_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="918" parent="296" name="TBL_COL_PRIVS_N49">
+      <ColNames>TBL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="919" parent="296" name="TABLECOLUMNPRIVILEGEINDEX">
+      <ColNames>AUTHORIZER
+TBL_ID
+COLUMN_NAME
+PRINCIPAL_NAME
+PRINCIPAL_TYPE
+TBL_COL_PRIV
+GRANTOR
+GRANTOR_TYPE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="920" parent="296" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="921" parent="297" name="TBL_GRANT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="922" parent="297" name="CREATE_TIME">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="923" parent="297" name="GRANT_OPTION">
+      <DasType>smallint(6)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="924" parent="297" name="GRANTOR">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="925" parent="297" name="GRANTOR_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>5</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="926" parent="297" name="PRINCIPAL_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>6</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="927" parent="297" name="PRINCIPAL_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>7</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="928" parent="297" name="TBL_PRIV">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>8</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="929" parent="297" name="TBL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="930" parent="297" name="AUTHORIZER">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>10</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <foreign-key id="931" parent="297" name="TBL_PRIVS_FK1">
+      <ColNames>TBL_ID</ColNames>
+      <RefColNames>TBL_ID</RefColNames>
+      <RefTableName>TBLS</RefTableName>
+    </foreign-key>
+    <index id="932" parent="297" name="PRIMARY">
+      <ColNames>TBL_GRANT_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="933" parent="297" name="TBL_PRIVS_N49">
+      <ColNames>TBL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="934" parent="297" name="TABLEPRIVILEGEINDEX">
+      <ColNames>AUTHORIZER
+TBL_ID
+PRINCIPAL_NAME
+PRINCIPAL_TYPE
+TBL_PRIV
+GRANTOR
+GRANTOR_TYPE</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="935" parent="297" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="936" parent="298" name="TXN_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="937" parent="298" name="TXN_STATE">
+      <DasType>char(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="938" parent="298" name="TXN_STARTED">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="939" parent="298" name="TXN_LAST_HEARTBEAT">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="940" parent="298" name="TXN_USER">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="941" parent="298" name="TXN_HOST">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="942" parent="298" name="TXN_AGENT_INFO">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <column id="943" parent="298" name="TXN_META_INFO">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <column id="944" parent="298" name="TXN_HEARTBEAT_COUNT">
+      <DasType>int(11)|0s</DasType>
+      <Position>9</Position>
+    </column>
+    <column id="945" parent="298" name="TXN_TYPE">
+      <DasType>int(11)|0s</DasType>
+      <Position>10</Position>
+    </column>
+    <index id="946" parent="298" name="PRIMARY">
+      <ColNames>TXN_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="947" parent="298" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="948" parent="299" name="TC_TXNID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="949" parent="299" name="TC_DATABASE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="950" parent="299" name="TC_TABLE">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="951" parent="299" name="TC_PARTITION">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="952" parent="299" name="TC_OPERATION_TYPE">
+      <DasType>char(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="953" parent="299" name="TC_WRITEID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="954" parent="299" name="TXN_COMPONENTS_ibfk_1">
+      <ColNames>TC_TXNID</ColNames>
+      <RefColNames>TXN_ID</RefColNames>
+      <RefTableName>TXNS</RefTableName>
+    </foreign-key>
+    <index id="955" parent="299" name="TC_TXNID_INDEX">
+      <ColNames>TC_TXNID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <column id="956" parent="300" name="T2W_TXNID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="957" parent="300" name="T2W_DATABASE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="958" parent="300" name="T2W_TABLE">
+      <DasType>varchar(256)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="959" parent="300" name="T2W_WRITEID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <index id="960" parent="300" name="TBL_TO_TXN_ID_IDX">
+      <ColNames>T2W_DATABASE
+T2W_TABLE
+T2W_TXNID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="961" parent="300" name="TBL_TO_WRITE_ID_IDX">
+      <ColNames>T2W_DATABASE
+T2W_TABLE
+T2W_WRITEID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="962" parent="300" name="TBL_TO_TXN_ID_IDX">
+      <UnderlyingIndexName>TBL_TO_TXN_ID_IDX</UnderlyingIndexName>
+    </key>
+    <key id="963" parent="300" name="TBL_TO_WRITE_ID_IDX">
+      <UnderlyingIndexName>TBL_TO_WRITE_ID_IDX</UnderlyingIndexName>
+    </key>
+    <column id="964" parent="301" name="TYPES_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="965" parent="301" name="TYPE_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="966" parent="301" name="TYPE1">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="967" parent="301" name="TYPE2">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <index id="968" parent="301" name="PRIMARY">
+      <ColNames>TYPES_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="969" parent="301" name="UNIQUE_TYPE">
+      <ColNames>TYPE_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="970" parent="301" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="971" parent="301" name="UNIQUE_TYPE">
+      <UnderlyingIndexName>UNIQUE_TYPE</UnderlyingIndexName>
+    </key>
+    <column id="972" parent="302" name="TYPE_NAME">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="973" parent="302" name="COMMENT">
+      <DasType>varchar(256)|0s</DasType>
+      <Position>2</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="974" parent="302" name="FIELD_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="975" parent="302" name="FIELD_TYPE">
+      <DasType>varchar(767)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <CollationName>latin1_bin</CollationName>
+    </column>
+    <column id="976" parent="302" name="INTEGER_IDX">
+      <DasType>int(11)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="977" parent="302" name="TYPE_FIELDS_FK1">
+      <ColNames>TYPE_NAME</ColNames>
+      <RefColNames>TYPES_ID</RefColNames>
+      <RefTableName>TYPES</RefTableName>
+    </foreign-key>
+    <index id="978" parent="302" name="PRIMARY">
+      <ColNames>TYPE_NAME
+FIELD_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="979" parent="302" name="TYPE_FIELDS_N49">
+      <ColNames>TYPE_NAME</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="980" parent="302" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="981" parent="303" name="VER_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="982" parent="303" name="SCHEMA_VERSION">
+      <DasType>varchar(127)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="983" parent="303" name="VERSION_COMMENT">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="984" parent="303" name="PRIMARY">
+      <ColNames>VER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="985" parent="303" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="986" parent="304" name="MAPPING_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="987" parent="304" name="RP_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="988" parent="304" name="ENTITY_TYPE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="989" parent="304" name="ENTITY_NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="990" parent="304" name="POOL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="991" parent="304" name="ORDERING">
+      <DasType>int(11)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="992" parent="304" name="WM_MAPPING_FK1">
+      <ColNames>RP_ID</ColNames>
+      <RefColNames>RP_ID</RefColNames>
+      <RefTableName>WM_RESOURCEPLAN</RefTableName>
+    </foreign-key>
+    <foreign-key id="993" parent="304" name="WM_MAPPING_FK2">
+      <ColNames>POOL_ID</ColNames>
+      <RefColNames>POOL_ID</RefColNames>
+      <RefTableName>WM_POOL</RefTableName>
+    </foreign-key>
+    <index id="994" parent="304" name="PRIMARY">
+      <ColNames>MAPPING_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="995" parent="304" name="UNIQUE_WM_MAPPING">
+      <ColNames>RP_ID
+ENTITY_TYPE
+ENTITY_NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="996" parent="304" name="WM_MAPPING_FK2">
+      <ColNames>POOL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="997" parent="304" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="998" parent="304" name="UNIQUE_WM_MAPPING">
+      <UnderlyingIndexName>UNIQUE_WM_MAPPING</UnderlyingIndexName>
+    </key>
+    <column id="999" parent="305" name="POOL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1000" parent="305" name="RP_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1001" parent="305" name="PATH">
+      <DasType>varchar(767)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="1002" parent="305" name="ALLOC_FRACTION">
+      <DasType>double|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1003" parent="305" name="QUERY_PARALLELISM">
+      <DasType>int(11)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1004" parent="305" name="SCHEDULING_POLICY">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="1005" parent="305" name="WM_POOL_FK1">
+      <ColNames>RP_ID</ColNames>
+      <RefColNames>RP_ID</RefColNames>
+      <RefTableName>WM_RESOURCEPLAN</RefTableName>
+    </foreign-key>
+    <index id="1006" parent="305" name="PRIMARY">
+      <ColNames>POOL_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1007" parent="305" name="UNIQUE_WM_POOL">
+      <ColNames>RP_ID
+PATH</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1008" parent="305" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="1009" parent="305" name="UNIQUE_WM_POOL">
+      <UnderlyingIndexName>UNIQUE_WM_POOL</UnderlyingIndexName>
+    </key>
+    <column id="1010" parent="306" name="POOL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1011" parent="306" name="TRIGGER_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="1012" parent="306" name="WM_POOL_TO_TRIGGER_FK1">
+      <ColNames>POOL_ID</ColNames>
+      <RefColNames>POOL_ID</RefColNames>
+      <RefTableName>WM_POOL</RefTableName>
+    </foreign-key>
+    <foreign-key id="1013" parent="306" name="WM_POOL_TO_TRIGGER_FK2">
+      <ColNames>TRIGGER_ID</ColNames>
+      <RefColNames>TRIGGER_ID</RefColNames>
+      <RefTableName>WM_TRIGGER</RefTableName>
+    </foreign-key>
+    <index id="1014" parent="306" name="PRIMARY">
+      <ColNames>POOL_ID
+TRIGGER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1015" parent="306" name="WM_POOL_TO_TRIGGER_FK2">
+      <ColNames>TRIGGER_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1016" parent="306" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="1017" parent="307" name="RP_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1018" parent="307" name="NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1019" parent="307" name="QUERY_PARALLELISM">
+      <DasType>int(11)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1020" parent="307" name="STATUS">
+      <DasType>varchar(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="1021" parent="307" name="DEFAULT_POOL_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="1022" parent="307" name="WM_RESOURCEPLAN_FK1">
+      <ColNames>DEFAULT_POOL_ID</ColNames>
+      <RefColNames>POOL_ID</RefColNames>
+      <RefTableName>WM_POOL</RefTableName>
+    </foreign-key>
+    <index id="1023" parent="307" name="PRIMARY">
+      <ColNames>RP_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1024" parent="307" name="UNIQUE_WM_RESOURCEPLAN">
+      <ColNames>NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1025" parent="307" name="WM_RESOURCEPLAN_FK1">
+      <ColNames>DEFAULT_POOL_ID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1026" parent="307" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="1027" parent="307" name="UNIQUE_WM_RESOURCEPLAN">
+      <UnderlyingIndexName>UNIQUE_WM_RESOURCEPLAN</UnderlyingIndexName>
+    </key>
+    <column id="1028" parent="308" name="TRIGGER_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1029" parent="308" name="RP_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1030" parent="308" name="NAME">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="1031" parent="308" name="TRIGGER_EXPRESSION">
+      <DasType>varchar(1024)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="1032" parent="308" name="ACTION_EXPRESSION">
+      <DasType>varchar(1024)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="1033" parent="308" name="IS_IN_UNMANAGED">
+      <DasType>bit(1)|0s</DasType>
+      <DefaultExpression>b&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="1034" parent="308" name="WM_TRIGGER_FK1">
+      <ColNames>RP_ID</ColNames>
+      <RefColNames>RP_ID</RefColNames>
+      <RefTableName>WM_RESOURCEPLAN</RefTableName>
+    </foreign-key>
+    <index id="1035" parent="308" name="PRIMARY">
+      <ColNames>TRIGGER_ID</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="1036" parent="308" name="UNIQUE_WM_TRIGGER">
+      <ColNames>RP_ID
+NAME</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="1037" parent="308" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="1038" parent="308" name="UNIQUE_WM_TRIGGER">
+      <UnderlyingIndexName>UNIQUE_WM_TRIGGER</UnderlyingIndexName>
+    </key>
+    <column id="1039" parent="309" name="WS_DATABASE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="1040" parent="309" name="WS_TABLE">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1041" parent="309" name="WS_PARTITION">
+      <DasType>varchar(767)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="1042" parent="309" name="WS_TXNID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="1043" parent="309" name="WS_COMMIT_ID">
+      <DasType>bigint(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="1044" parent="309" name="WS_OPERATION_TYPE">
+      <DasType>char(1)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+  </database-model>
+</dataSource>
